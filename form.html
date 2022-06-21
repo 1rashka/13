@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <header class="header ">
+        <div class="header__content ounter ">
+            <div class="header__menu menu inner ">
+                
+                <div class="menu__logo logo ">
+                    <a href="index.html">
+                        <img src="img/logo-mobile.svg.png" alt="Логотип" width="33px" class="logo__modile logo">
+                    </a>
+                    <a href="index.html">
+                        <img src="img/logo-desktop.svg.png" alt="Логотип" width="202px" class="logo__main logo">
+                    </a>
+                </div>
+
+                
+                    <div class="logo__center">
+                        <img src="img/logo-mobile-header.svg.png" alt="Логотип" width="101px" class="logo__center">
+                    </div>
+               
+
+                <div class="menu__burger ">
+                    <span class="menu__burger-item">
+
+                    </span>
+                </div>
+                
+                <nav class="menu__nav">
+                    
+                    <ul class="menu__list">
+                        <il class="menu__item">
+
+                            <a href="index.html" class="menu__link menu__alt">
+                                Главная
+                            </a>
+                        </il>
+                        <il class="menu__item">
+
+                            <a href="catalog.html" class="menu__link menu__alt">
+                                Каталог продукции
+                            </a>
+                        </il>
+                        <il class="menu__item">
+
+                            <a href="form.html" class="menu__link  menu__alt menu__checked-alt">
+                                Подбор программмы
+                            </a>
+                        </il>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <form action="" class="form ounter">
+
+            <div class="form__content inner">
+                <h2 class="form__title title">
+                    Подбор программы
+                </h2>
+
+                <p class="form__big-text big-text">
+                    Заполните анкету и мы подберем 
+                    программу питания для вашего кота
+                </p>
+
+                <div class="form__wrapper">
+                    <div class="form__wrapper-info">
+                        <label class="form__label label">
+                            <span class="form__characteristic">Имя:*</span>
+                            <input type="text" class="form__input" placeholder="Барсик">
+                        </label>
+
+                        <label class="form__label label">
+                            <span class="form__characteristic">Вес(кг):*</span>
+                            <input type="text" class="form__input" placeholder="7">
+                        </label>
+
+                        <label class="form__label label">
+                            <span class="form__characteristic">Возраст(лет):*</span>
+                            <input type="text" class="form__input" placeholder="7">
+                        </label>
+                    </div>
+
+                    <div class="form__radio-wrapper form__wrapper-info">
+                        <label class=" form__label-radio form__label ">
+                            <input type="radio" class="form__radio visually-hidden"name="1"  >
+                            <span class="radio-button"></span>
+                            <span class="form__characteristic">Похудение</span>
+                        </label>
+
+                        <label class=" form__label-radio form__label">
+                            <input type="radio" class="form__radio visually-hidden" name="2" >
+                            <span class="radio-button"></span>
+                            <span class="form__characteristic">Набор массы</span>
+                        </label>
+
+                        <label class=" form__label-radio form__label">
+                            <input type="radio" class="form__radio visually-hidden" name="3" >
+                            <span class="radio-button"></span>
+                            <span class="form__characteristic">Не знаю (нужен ваш совет)</span>
+                        </label>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="form__content inner">
+                <h3 class="form__subtitle subtitle">
+                    Контактные данные (владельца кота)
+                </h3>
+
+                <div class="form__wrapper">
+                    
+                    <div class="form__wrapper-info">
+                        
+                        <label class="form__label label">
+                            <span class="form__characteristic">E-mail:*</span>
+
+                            <input type="email" class="form__input form__email" placeholder="kuklachev@gmail.com">
+                        </label>
+                    </div>
+
+                    <div class="form__wrapper-info form__wrapper-number ">
+                        <label class="form__label label ">
+                            <span class="form__characteristic">Телефон:*</span>
+
+                            <input type="tel" class="form__input form__humber" placeholder="8 (960) 900-60-90" >
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form__content inner">
+                <h3 class="form__subtitle subtitle">
+                    Комментарий
+                </h3>
+
+          
+                    <div class="form__wrapper-info form__wrapper-comment">
+                        <textarea class="form__area" placeholder="Расскажите обо всех повадках кота"></textarea>
+                    </div>
+               
+            </div>
+
+
+            <div class="form__content inner">
+                <h3 class="form__subtitle subtitle">
+                    Дополнительно
+                </h3>
+                <div class="form__wrapper form__checkbox-wrapper">
+
+                    
+                    <label class=" form__label-checkbox  ">
+                        <input type="checkbox" class="form__input-checkbox visually-hidden" checked >
+                        <span class="checkbox"></span>
+                        <span class="form__characteristic">Сахарозаменитель</span>
+                    </label>
+    
+                    <label class=" form__label-checkbox ">
+                        <input type="checkbox" class="form__input-checkbox visually-hidden"  >
+                        <span class="checkbox"></span>
+                        <span class="form__characteristic">Питьевая вода</span>
+                    </label>
+    
+                    <label class=" form__label-checkbox  ">
+                        <input type="checkbox" class="form__input-checkbox visually-hidden"  >
+                        <span class="checkbox"></span>
+                        <span class="form__characteristic">Молоко</span>
+                    </label>
+    
+                    <label class=" form__label-checkbox ">
+                        <input type="checkbox" class="form__input-checkbox visually-hidden">
+                        <span class="checkbox"></span>
+                        <span class="form__characteristic">Витамины</span>
+                    </label>
+    
+                    
+                </div>
+               
+            </div>
+
+            <div class="form__content inner">
+                <div class="form__button">
+
+                    <button type="submit" class=" button">
+                        Отправить заявку
+                    </button>
+    
+                    <p class="text__little">
+                        * — Обязательные поля
+                    </p>
+
+                </div>
+
+            </div>
+
+            
+        </form>
+    </main>
+
+    <section class="map">
+        <div class="ounter">
+            <div class="map__content ">
+                <p class="map__text-big">
+                    Приглашаем к сотрудничеству дилеров!
+                </p>
+
+                <p class="map__adress">
+                    ул. Большая
+                    Конюшенная, д. 19/8 
+                    <span class="city">Санкт-Петербург</span>
+                </p>
+            </div>
+        </div>    
+    </section>
+    <footer class="footer ">
+        <div class="ounter">
+            <div class="footer__content inner">
+                <div class="footer__logo">
+                    <img src="img/footer-logo.svg.png" alt="">
+                </div>
+
+                <div class="footer__media">
+                    <a href="" class="social-link">
+                        <img src="img/vk.svg.png" alt="" class="footer__social-logo">
+                    </a>
+                    <a href="" class="social-link">
+                        <img src="img/fb.svg.png" alt="" class="footer__social-logo">
+                    </a>
+                    <a href="" class="social-link">
+                        <img src="img/insta.svg.png" alt="" class="footer__social-logo">
+                    </a>
+
+                </div>
+
+                <div class="footer__html-logo">
+                    <p class="footer__academy">
+                        <a href="" class="footer__link"> HTML ACADEMY</a>
+                    </p>
+
+                    <a href="" >
+                        <img src="img/htmlacademy.svg.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+<script src="js/script.js"></script>
+</body>
+</html>

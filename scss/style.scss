@@ -378,7 +378,7 @@
             right: 0;
             bottom: 0;
             background-color: $colorMain;
-            background-image: url("/img/index-background-desktop.jpg");
+            background-image: url("../img/index-background-desktop.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 50%;
@@ -434,7 +434,7 @@
         bottom: 0;
         z-index: 1;
         background-color: $colorMain;
-        background-image: url("/img/index-background-mobile.png");
+        background-image: url("../img/index-background-mobile.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
@@ -696,7 +696,7 @@
    }
     .slim{
        &::before{
-        background-image: url("/img/slim\ mobail.png");
+        background-image: url("../img/slim\ mobail.png");
         top:25px;
         left: 30px;
        }
@@ -705,7 +705,7 @@
     .slim-pro{
         padding-left: 35px;
         &::before{
-         background-image: url("/img/pro-mobail.png");
+         background-image: url("../img/pro-mobail.png");
          top:45px;
          left: 15px;
          
@@ -774,7 +774,7 @@
             
             &::before{
             width: 150px;
-             background-image: url("/img/tablet-slim.png");
+             background-image: url("../img/tablet-slim.png");
              top:20px;
              left: 69%;
              
@@ -787,7 +787,7 @@
              padding-left: 0;
              &::before{
                 width: 270px;
-                background-image: url("/img/pro\ tablet.png");
+                background-image: url("../img/pro\ tablet.png");
                 top:90px;
                 left:  59%;
               
@@ -853,7 +853,7 @@
             &::before{
             width: 100px;
             height: 100px;
-             background-image: url("/img/cat-slim-desk.png");
+             background-image: url("../img/cat-slim-desk.png");
              top:20px;
              left: 40px;
              
@@ -867,7 +867,7 @@
              &::before{
                 width: 150px;
                 height: 70px;
-                background-image: url("/img/cat-pro-desk.png");
+                background-image: url("../img/cat-pro-desk.png");
                 top:55px;
                 left:15px;
               
@@ -957,7 +957,7 @@
                 width: 120px;
                 height: 230px;
                 position: absolute;
-                background-image: url("/img/1.png");
+                background-image: url("../img/1.png");
                 top: 0;
                 right: 20%;;
                 background-repeat: no-repeat;
@@ -973,7 +973,7 @@
                 width: 120px;
                 height: 230px;
                 position: absolute;
-                background-image: url("/img/2.png");
+                background-image: url("../img/2.png");
                 top: 0;
                 right: 20%;
                 background-repeat: no-repeat;
@@ -988,7 +988,7 @@
                 width: 120px;
                 height: 230px;
                 position: absolute;
-                background-image: url("/img/3.png");
+                background-image: url("../img/3.png");
                 top: 0;
                 right: 20%;
                 background-repeat: no-repeat;
@@ -1003,7 +1003,7 @@
                 width: 120px;
                 height: 230px;
                 position: absolute;
-                background-image: url("/img/4.png");
+                background-image: url("../img/4.png");
                 top: 0;
                 right: 20%;
                 background-repeat: no-repeat;
@@ -1249,7 +1249,7 @@
         input[type=range].example__big-range{
 
             &:hover::-webkit-slider-thumb,&:focus::-webkit-slider-thumb{
-                background-image: url("/img/slider\ control\ hover.png");
+                background-image: url("../img/slider\ control\ hover.png");
 
             }
 
@@ -1317,7 +1317,7 @@
                 width: 40px;
                 height: 40px;
                 border-radius: 100%;
-                background-image: url("/img/slider\ control.png");
+                background-image: url("../img/slider\ control.png");
                 background-repeat: no-repeat;
                 background-size:cover ;
                
@@ -1415,7 +1415,7 @@
 
 .map{
  
-    background-image: url("/img/map-pin.png");
+    background-image: url("../img/map-pin.png");
     background-repeat: no-repeat;
     background-position: 80% ;
     background-size: cover;
@@ -1665,7 +1665,7 @@
     }
 
     .form__email{
-            background-image: url("/img/mail.svg.png");
+            background-image: url("../img/mail.svg.png");
             background-position: 98% 50%;
         
     }
@@ -1714,7 +1714,7 @@
     }
 
     .form__radio:checked,.form__radio:focus+.radio-button{
-        background-image: url("/img/radio-active.png");
+        background-image: url("../img/radio-active.png");
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -1733,7 +1733,7 @@
     }
 
     .form__input-checkbox:checked+.checkbox{
-        background-image: url("/img/tick.svg.png");
+        background-image: url("../img/tick.svg.png");
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -1984,6 +1984,13 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .catalog__item-more{
+        width: 320px;
+        padding: 10px 20px;
+        border: 1px solid #e6e6e6; 
+
     }
 
     .catalog__button{

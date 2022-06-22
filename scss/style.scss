@@ -1752,7 +1752,7 @@
         margin-right: 16px;  
     }
 
-    .form__input-checkbox:checked+.checkbox,.form__input-checkbox:hover+.checkbox,.form__input-checkbox:focus+.checkbox{
+    .form__input-checkbox:checked+.checkbox,.form__input-checkbox:hover+.checkbox{
         background-image: url("../img/tick.svg.png");
         background-repeat: no-repeat;
         background-position: center;

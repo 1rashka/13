@@ -78,35 +78,35 @@
                     <div class="form__wrapper-info">
                         <label class="form__label label">
                             <span class="form__characteristic">Имя:*</span>
-                            <input type="text" class="form__input" placeholder="Барсик">
+                            <input type="text" class="form__input" placeholder="Барсик" required>
                         </label>
 
                         <label class="form__label label">
                             <span class="form__characteristic">Вес(кг):*</span>
-                            <input type="text" class="form__input" placeholder="7">
+                            <input type="number" class="form__input" placeholder="7" required min="1" step="1" max="99">
                         </label>
 
                         <label class="form__label label">
                             <span class="form__characteristic">Возраст(лет):*</span>
-                            <input type="text" class="form__input" placeholder="7">
+                            <input type="number" class="form__input" placeholder="7" required min="1" step="1">
                         </label>
                     </div>
 
                     <div class="form__radio-wrapper form__wrapper-info">
                         <label class=" form__label-radio form__label ">
-                            <input type="radio" class="form__radio visually-hidden"name="1"  >
+                            <input type="radio" class="form__radio visually-hidden" name="1" >
                             <span class="radio-button"></span>
                             <span class="form__characteristic">Похудение</span>
                         </label>
 
                         <label class=" form__label-radio form__label">
-                            <input type="radio" class="form__radio visually-hidden" name="2" >
+                            <input type="radio" class="form__radio visually-hidden" name="1" >
                             <span class="radio-button"></span>
                             <span class="form__characteristic">Набор массы</span>
                         </label>
 
                         <label class=" form__label-radio form__label">
-                            <input type="radio" class="form__radio visually-hidden" name="3" >
+                            <input type="radio" class="form__radio visually-hidden" name="1" >
                             <span class="radio-button"></span>
                             <span class="form__characteristic">Не знаю (нужен ваш совет)</span>
                         </label>
@@ -128,7 +128,7 @@
                         <label class="form__label label">
                             <span class="form__characteristic">E-mail:*</span>
 
-                            <input type="email" class="form__input form__email" placeholder="kuklachev@gmail.com">
+                            <input type="email" class="form__input form__email" placeholder="kuklachev@gmail.com" required>
                         </label>
                     </div>
 
@@ -136,7 +136,7 @@
                         <label class="form__label label ">
                             <span class="form__characteristic">Телефон:*</span>
 
-                            <input type="tel" class="form__input form__humber" placeholder="8 (960) 900-60-90" >
+                            <input type="tel" class="form__input form__humber" placeholder="8 (960) 900-60-90" required >
                         </label>
                     </div>
                 </div>

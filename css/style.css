@@ -1291,7 +1291,7 @@ body {
 }
 .form__content .form__input {
   flex: 1;
-  border: solid 1px #cdcdcd;
+  border: solid 1px #f2f2f2;
   padding: 5px 0 5px 16px;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
@@ -1302,6 +1302,18 @@ body {
 }
 .form__content .form__input::placeholder {
   color: #444;
+}
+.form__content .form__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.form__content .form__input:hover {
+  border: solid 1px #dcdcdc;
+}
+.form__content .form__input:active, .form__content .form__input:focus {
+  border: solid 1px #444;
+}
+.form__content .form__input:required:valid {
+  border: solid 1px #68b738;
 }
 .form__content .form__email, .form__content .form__humber {
   background-repeat: no-repeat;
@@ -1346,10 +1358,13 @@ body {
   border-radius: 100%;
   margin-right: 16px;
 }
-.form__content .form__radio:checked, .form__content .form__radio:focus + .radio-button {
+.form__content .form__radio:checked + .radio-button, .form__content .form__radio:focus + .radio-button, .form__content .form__radio:hover + .radio-button {
   background-image: url("../img/radio-active.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+.form__content .form__radio:focus + .radio-button {
+  opacity: 0.6;
 }
 .form__content .form__label + .form__label {
   margin-top: 20px;
@@ -1360,10 +1375,13 @@ body {
   border: solid 1px #cdcdcd;
   margin-right: 16px;
 }
-.form__content .form__input-checkbox:checked + .checkbox {
+.form__content .form__input-checkbox:checked + .checkbox, .form__content .form__input-checkbox:hover + .checkbox, .form__content .form__input-checkbox:focus + .checkbox {
   background-image: url("../img/tick.svg.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+.form__content .form__input-checkbox:focus + .checkbox {
+  opacity: 0.6;
 }
 .form__content .form__button {
   text-align: center;
